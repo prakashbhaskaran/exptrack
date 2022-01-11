@@ -24,7 +24,7 @@ export const TransactionList = () => {
               fontSize: "22px",
             }}
           >
-            Add items below
+            {transaction ? "Add items below" : "Loading..."}
           </p>
         </ul>
       ) : (
